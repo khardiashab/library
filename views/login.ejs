@@ -1,0 +1,24 @@
+<%- include("partials/header") %> 
+
+<form action="/sign-in" method="post">
+    <label>
+        <p class="label-txt">USER EMAIL</p>
+        <input type="text" class="input" name="email">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+      </label>
+      <label>
+        <p class="label-txt">ENTER YOUR PASSWORD</p>
+        <input type="password" class="input" name="password">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+      </label>
+      <a href="" class="forgot-password">Forget password?</a>
+      <button type="submit">Log In</button>
+  </form>
+
+  
+
+<%- include("partials/footer") %> 

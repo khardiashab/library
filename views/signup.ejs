@@ -1,0 +1,35 @@
+<%- include("partials/header") -%> 
+
+<form action="/sign-up" method="post">
+    <label>
+      <p class="label-txt">ENTER YOUR NAME</p>
+      <input type="text" class="input" name="fullName">
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+    </label>
+    <label>
+      <p class="label-txt">ENTER YOUR EMAIL</p>
+      <input type="text" class="input" name="emailId">
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+    </label>
+    <label>
+      <p class="label-txt">CREATE YOUR PASSWORD</p>
+      <input type="password" class="input" name="createPassword">
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+    </label>
+    <label>
+      <p class="label-txt">CONFRIM YOUR PASSWORD</p>
+      <input type="password" class="input" name="confrimPassword">
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+    </label>
+    <button type="submit">submit</button>
+  </form>
+
+<%- include("partials/footer") -%> 
